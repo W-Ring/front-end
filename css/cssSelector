@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a[href] {
+            color: #00cccc;
+            text-decoration: underline;
+        }
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<a>这是一个没有href的超链接</a><br>
+<a href="www.baidu.com">只是一个有href的超链接1</a><br>
+<a href="www.baidu.com" class="red">只是一个有href的超链接</a>
+</body>
+</html>
